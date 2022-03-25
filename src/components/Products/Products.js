@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Products.css';
 import fakeData from '../../fakeData/fakeData.json'
 import Product from '../Product/Product';
+import Cart from '../Cart/Cart';
 
 
 const Products = () => {
@@ -20,7 +21,7 @@ const Products = () => {
                 }
             </div>
             <div className="cart-container">
-                <h1>Order List</h1>
+                <Cart></Cart>
             </div>
         </div>
     );
