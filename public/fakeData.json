@@ -1,0 +1,53 @@
+[{
+        "id": "1",
+        "name": "Iphone",
+        "price": "1000",
+        "img": "../src/images/iphone 13 Pro Max.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Samsung-Galaxy-A23",
+        "price": "10002",
+        "img": "../src/images/Samsung-Galaxy-A23.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Iphone",
+        "price": "1000",
+        "img": "../src/images/iphone 13 Pro Max.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Samsung-Galaxy-A23",
+        "price": "10002",
+        "img": "../src/images/Samsung-Galaxy-A23.jpg"
+    }, {
+        "id": "5",
+        "name": "Iphone",
+        "price": "1000",
+        "img": "../src/images/iphone 13 Pro Max.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Samsung-Galaxy-A23",
+        "price": "10002",
+        "img": "../src/images/Samsung-Galaxy-A23.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Iphone",
+        "price": "1000",
+        "img": "../src/images/iphone 13 Pro Max.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Samsung-Galaxy-A23",
+        "price": "10002",
+        "img": "../src/images/Samsung-Galaxy-A23.jpg"
+    }, {
+        "id": "9",
+        "name": "Samsung-Galaxy-A23",
+        "price": "10002",
+        "img": "../src/images/Samsung-Galaxy-A23.jpg"
+    }
+]
