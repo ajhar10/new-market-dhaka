@@ -15,8 +15,12 @@ const Products = () => {
     const [cart, setCart] = useState([]);
 
     const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        const isExit = cart.find(item => item === product)
+        if (isExit === undefined) {
+            setCart([...cart, product])
+        } else {
+            alert("Already Added")
+        }
     }
 
     //Choose One Cart Item Randomly
