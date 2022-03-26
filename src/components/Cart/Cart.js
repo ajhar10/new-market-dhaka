@@ -1,6 +1,7 @@
 import './Cart.css'
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, handleToCartItem, clearItem }) => {
+
 
     return (
         <div className='cart'>
@@ -13,7 +14,12 @@ const Cart = ({ cart }) => {
                         </div>
                     )
                 }
-                <button className='cart-btn'>Choose 1 For Me</button>
+                <button onClick={() => handleToCartItem()} className='cart-btn'>Choose 1 For Me</button>
+                <br />
+                <button onClick={() => clearItem()} className='cart-btn'>Clear All</button>
+
+
+
             </div>
         </div>
     );

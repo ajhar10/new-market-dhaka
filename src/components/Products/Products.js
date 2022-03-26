@@ -11,11 +11,24 @@ const Products = () => {
         setProducts(fakeData)
     }, [])
 
+    //Add Product to Cart
     const [cart, setCart] = useState([]);
 
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
+    }
+
+    //Choose One Cart Item Randomly
+    const handleToCartItem = () => {
+        const random = Math.floor(Math.random() * cart.length);
+        setCart([]);
+        setCart([cart[random]])
+    }
+
+    // For Clear Cart Item 
+    const clearItem = () => {
+        setCart([]);
     }
 
     return (
@@ -29,7 +42,7 @@ const Products = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} handleToCartItem={handleToCartItem} clearItem={clearItem}></Cart>
             </div>
         </div>
     );

@@ -19,10 +19,12 @@
 .cart-btn{
     font-size: 20px;
     color: green;
-    padding: 8px 10px;
+    width: 180px;
+    padding: 9px 0;
     background: #e3afbc;
     border: 1px solid #e26d8b;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 .cart-btn:hover{
     cursor: pointer;

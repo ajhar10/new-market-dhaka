@@ -1,0 +1,26 @@
+.question{
+    
+    width: 100%;
+}
+
+.question-1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.question-2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.heading{
+    color: brown;
+}
+
+.answer{
+    text-decoration: underline;
+    color: rgb(6, 165, 112);
+}
+
+.question-2 p, .question-1 p{
+    font-size: 20px;
+}
