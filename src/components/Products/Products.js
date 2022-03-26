@@ -10,18 +10,26 @@ const Products = () => {
     useEffect(() => {
         setProducts(fakeData)
     }, [])
+
+    const [cart, setCart] = useState([]);
+
+    const handleAddToCart = (product) => {
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
+
     return (
         <div className='products'>
             <div className="product-container">
                 {
                     products.map(product =>
-                        <Product product={product} key={product.id}></Product>
+                        <Product product={product} handleAddToCart={handleAddToCart} key={product.id}></Product>
 
                     )
                 }
             </div>
             <div className="cart-container">
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
