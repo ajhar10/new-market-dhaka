@@ -8,49 +8,49 @@
     {
         "id": "2",
         "name": "Samsung-Galaxy-A23",
-        "price": "10002",
+        "price": "800",
         "img": "https://specifications-pro.com/wp-content/uploads/2021/12/Samsung-Galaxy-A23-5G-600x600.jpg"
     },
     {
         "id": "3",
         "name": "Iphone 12",
-        "price": "1000",
-        "img": "https://www.mytrendyphone.eu/images/iPhone-12-64GB-Black-0194252029619-20102020-01-p.jpg"
+        "price": "900",
+        "img": "https://cdn.shopify.com/s/files/1/1706/9177/products/iphone-12-pro-gold-hero_83db8e45-3529-44a1-aa22-50e17d0623c3.png?v=1613634994"
     },
     {
         "id": "4",
         "name": "Samsung Galaxy Z",
-        "price": "10002",
+        "price": "700",
         "img": "https://flavour-design.pl/img/products/15/89/5/10_max.jpg"
     },
     {
         "id": "5",
         "name": "Oppo Reno5 ",
-        "price": "1000",
+        "price": "300",
         "img": "https://goprice.com.bd/wp-content/uploads/2021/05/Oppo-Reno5.jpg"
     },
     {
         "id": "6",
         "name": "Vivo S12e",
-        "price": "10002",
+        "price": "500",
         "img": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1640577366798/08565209ba609be4dda68fb84f119764.png"
     },
     {
         "id": "7",
         "name": "Vivo Y50t",
-        "price": "1000",
+        "price": "600",
         "img": "https://www.mymobilesprice.com/wp-content/uploads/2021/11/Vivo-Y50t-500x500.jpg"
     },
     {
         "id": "8",
         "name": "Iphone 12 Pro Max",
-        "price": "10002",
+        "price": "1000",
         "img": "https://freepikpsd.com/file/2020/04/iPhone-12-mockup-Free-Psd-Download.png"
     },
     {
         "id": "9",
         "name": "HTC Desire 21 Pro",
-        "price": "10002",
+        "price": "900",
         "img": "https://pricespakistan.pk/wp-content/uploads/2021/01/HTC-Desire-21-Pro-5G.png"
     }
 ]

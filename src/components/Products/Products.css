@@ -23,6 +23,19 @@
     }
 }
 @media screen and (max-width:767px) {
+    .products{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .product-container{
+        grid-template-columns: repeat(1,1fr);  
+    }
+}
+@media screen and (max-width:575px) {
+    .products{
+        grid-template-columns: 1fr 1fr;
+        
+    }
     .product-container{
         grid-template-columns: repeat(1,1fr);  
     }

@@ -49,12 +49,23 @@ margin-top: 7px;
     margin-right: 5px;
 }
 
-@media screen and (max-width:490px) {
+@media screen and (max-width:767px) {
     .product {
         width: 235px;
     }
-    .product img{
+    .product img {
         width: 220px; 
         margin: 7px;    
     }
 }
+
+@media screen and (max-width:575px) {
+    .product {
+        width: 180px;
+    }
+    .product img {
+        width: 160px; 
+        margin: 6px;    
+    }
+}
+
